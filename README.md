@@ -76,13 +76,3 @@ Il file generato è in formato PPM (P6), visualizzabile con:
 ## Autore
 Tchakounte Nzoumeni Yvan Landry (SM3201458)
 
-## Compilazione Manuale (opzionale)
-```bash
-gcc -Wall -O2 -fopenmp -o raytracer main.c scene.c ppm.c -lm
-```
-
-## Pulizia dei file oggetto
-```bash
-make clean
-```
-
